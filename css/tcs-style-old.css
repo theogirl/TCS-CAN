@@ -1,0 +1,135 @@
+/***---GENERAL---***/
+
+body {
+	font-family: museo slab, Tahoma, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #00afec;
+}
+
+/***---HEADER SECTION WITH NAV---***/
+
+.tcs-header {
+	padding-bottom: 180px;
+}
+
+@media (min-width: 768px) {
+	.tcs-header {
+	padding-bottom: 110px;
+  }
+}
+
+.navbar-default {
+	background-color: #FFF;
+}
+
+/*1st ROW*/
+.blacktop {
+	background-color: #000;
+	padding: 0 20px;
+	color: white;
+	padding-top: 14px;
+	font-size: 1.3em;
+}
+
+.social a {
+	color: white;
+	text-decoration: none;
+	padding-right: 15px;
+}
+
+.social a:hover {
+	color: deeppink;
+}
+
+.phone {
+	text-align: center;
+}
+
+@media (min-width: 768px) {
+.phone {
+	text-align: right;
+  }	
+}
+
+/*styles phone call link on mobile*/
+.phone a {
+	color: white;
+	text-decoration: none;
+}
+
+.phone a:hover {
+	color: deeppink;
+	text-decoration: none;
+
+}
+
+/*makes phone# appear less link-like on desktop*/
+@media (min-width: 768px) {
+.phone a {
+	color: white;
+	text-decoration: none;
+  }	
+}
+
+@media (min-width: 768px) {
+.phone a:hover {
+	color: white;
+	text-decoration: none;
+  }	
+}
+
+/*2nd ROW*/
+.navbar-brand {
+	padding: 4px 0 0 20px;
+}
+
+#tcsnavbar-links {
+	padding-right: 20px;
+}
+
+#tcsnavbar-links ul li a {
+	color: #5f5f5f;
+	font-size: 1.1em;
+}
+
+#tcsnavbar-links ul li a:hover {
+	background-color: #eeeeee;
+	color: black;
+}
+
+.btn-primary {
+	background-color: #00afec;
+	border-color: #0296ce;
+	font-size: 1.1em;
+}
+
+.btn-primary:hover {
+	background-color: #0077c5;
+}
+
+
+/*Quote Request bar for mobile only*/
+.QR-bar {
+	background-color: #00afec;
+	font-size: 1.6em;
+	text-align: center;
+	padding: 10px 0 7px 20px;
+}
+
+.QR-bar a {
+	color: white;
+}
+.QR-bar a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+
+
+/***---FOOTER SECTION---***/
+
+
+
