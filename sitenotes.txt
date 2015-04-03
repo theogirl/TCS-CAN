@@ -1,0 +1,9 @@
+/-------NOTES re: TCS and PP-------/
+
+Re: email signup and collection:
+
+We can use the signup html code/forms in my icontact account to collect email addresses.
+
+icontact.com
+User: winusa_99
+Password: javarules99
