@@ -9,42 +9,7 @@
     
     <title>The Cup Store</title>
 
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/tcs-style.css">
-	<link rel="stylesheet" href="css/font-awesome.css">
-
-	<link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="images/android-chrome-36x36.png" sizes="36x36">
-	<link rel="icon" type="image/png" href="images/android-chrome-48x48.png" sizes="48x48">
-	<link rel="icon" type="image/png" href="images/android-chrome-72x72.png" sizes="72x72">
-	<link rel="icon" type="image/png" href="images/android-chrome-144x144.png" sizes="144x144">
-	<link rel="icon" type="image/png" href="images/android-chrome-192x192.png" sizes="192x192">
-	<link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96">
-	<link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
-
-	<!--TypeKit fonts-->
-	<script src="//use.typekit.net/eco7azw.js"></script>
-	<script>try{Typekit.load();}catch(e){}</script>
-	
-	<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<script scr="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-	<![endif]-->	
-
-<!--Google Analytics tracking CAN-->
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-19378007-2']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
+  <?php include 'includes/head.php'; ?>
 
 </head>
 
@@ -126,20 +91,6 @@
 	</section>
 </div>
 
-<!--CALLOUT-->
-
-<!--<aside class="tcs-callout">
-	<div class="container-fluid row">
-			<div class="col-xs-12 col-sm-2 col-sm-offset-1">
-				<img src="images/tcs-icon.png" class="img-responsive" alt="The Cup Store logo">
-			</div>
-				
-			<div class="col-xs-12 col-sm-8">
-				<h2>Are you a marketing professional?</h2>
-				<p>The Cup Store proudly partners with the advertising and marketing professionals who help their clients grow their business and achieve strong brand recognition. Our extensive experience and printing capabilities allow us to offer OEM clients a wide variety of products and become a trusted collaborator. If you're wondering how to incorporate printed cups into your strategy or would like more info on reseller pricing, give us a call!</p>
-			</div>
-	</div>
-</aside>-->
 
 <aside class="tcs-callout">
 	<div class="container-fluid row">
@@ -169,13 +120,6 @@
 				<p>"I had the pleasure of dealing with Christina and the rest of the staff at The Cup Store and one word sums up their service, expertise, quality of work and ability to meet deadlines‎: OUTSTANDING. I will be doing business with The Cup Store for a very long time, as they are helping customers like me, one cup at a time!"</p>
 				<p><em>- Sales Representative, <strong>Diageo–Wirtz Beverage Canada</strong></em></p>
 			</div>
-
-
-			<!--<div>
-				<h3>Tweet-worthy!</h3>
-				<p>"Stoked on our new cups from @thecupstore! Can't wait to use these!!!"</p>
-				<p><em>- Clearly Kombucha, @clearlykombucha</em></p>
-			</div>-->
 
 		</div>
 
