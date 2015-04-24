@@ -844,7 +844,7 @@
     <h3 class="text-center glass-title">Glass Stemware</h3>
 
     <section class="row">
-      <div class="col-xs-6 col-sm-2 col-sm-offset-1 tcs-product">
+      <div class="col-xs-6 col-sm-2 col-sm-offset-2 tcs-product">
       <img src="images/products/wine-85oz.jpg" alt="Wine Glass - 8.5oz" title="Wine Glass - 8.5oz">
       <h4>8.5 oz. Wine Glass</h4>
       </div>
@@ -859,10 +859,10 @@
       <h4>19.25 oz. White Wine</h4>
       </div>   
 
-     <div class="col-xs-6 col-sm-2 tcs-product">
+     <!--<div class="col-xs-6 col-sm-2 tcs-product">
       <img src="images/products/martini-10oz.jpg" alt="Martini - 10oz" title="Martini - 10oz">
       <h4>10 oz. Martini</h4>
-      </div>   
+      </div>-->  
 
      <div class="col-xs-6 col-sm-2 tcs-product">
       <img src="images/products/flute-8oz.jpg" alt="Flute - 8oz" title="Flute - 8oz">
@@ -924,7 +924,7 @@
               <th>Call Us</th>
             </tr>
 
-            <tr>
+            <!--<tr>
               <th>AA10-48463</th>
               <th>10 oz Martini</th>
               <th>$13.83</th>
@@ -932,7 +932,7 @@
               <th>$9.88</th>
               <th>$9.35</th>
               <th>Call Us</th>
-            </tr>
+            </tr>-->
 
            <tr>
               <th>A8-45520</th>
